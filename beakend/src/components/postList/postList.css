@@ -2,7 +2,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 @media screen and (max-width: 768px) {

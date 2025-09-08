@@ -1,14 +1,18 @@
 .post-card{
     width: 400px;
     height: 600px;
-    background-color: rgb(233, 245, 251);
+    background-color: rgb(255, 252, 252,1);
     border-radius: 10px;
     display: grid;
     grid-template-columns:1fr  1fr 1fr;
     grid-template-rows:1fr  5fr 3fr ;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+
 }
 #Descriptio{
+    text-align: center;
     grid-row: 1;
     grid-column: 1/4;
     font-size: 20px;
