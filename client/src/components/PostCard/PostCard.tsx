@@ -11,7 +11,6 @@ function PostCard({props}:any){
              <p id="time">{time.toLocaleString()}</p>
         </div>
     )
-
 }
 export default PostCard
 
