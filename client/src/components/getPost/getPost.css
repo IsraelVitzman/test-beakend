@@ -1,19 +1,17 @@
-.post-List {
+.grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat( 3, 1fr);
     margin: auto;
     width: 100vw;
     height: 100vh;
     gap: 20px;
-    align-items: center;
-    justify-content: center;
-    
-    
+    place-items: center;
+  
 }
 
 @media screen and (max-width: 768px) {
-    .post-List {
+    .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
 
